@@ -17,15 +17,14 @@ export default function Home() {
       </div>
         </h1> 
       </div>
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
 
+      <div className="grid text-center ">
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          href="https://verse.inc"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 mb-80"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          
+        >    
           <Image
             src="/Verse-Logo.png"
             height={144}
@@ -33,7 +32,10 @@ export default function Home() {
             alt="verse logo"
             className="ml-auto mr-auto"
           />
+          put auth here
         </a>
+        {/* the link below doesn't work correctly, consult docs and fix */}
+        <a href="/api/auth/login">Login</a>  
         
       </div>
     </main>
