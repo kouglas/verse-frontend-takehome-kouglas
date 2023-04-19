@@ -34,10 +34,11 @@ export default function Home() {
           />
           put auth here
         </a>
-        {/* the link below doesn't work correctly, consult docs and fix */}
         <a href="/api/auth/login">Login</a>  
         
       </div>
     </main>
   )
 }
+
+
