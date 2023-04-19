@@ -35,6 +35,9 @@ export default function Home() {
           put auth here
         </a>
         <a href="/api/auth/login">Login</a>  
+
+        {/* logout */}
+        <a href="/api/auth/logout">Logout</a>
         
       </div>
     </main>
