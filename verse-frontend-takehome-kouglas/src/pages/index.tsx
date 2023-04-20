@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import Profile from './profile'
+import Login from './Login'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -33,8 +34,11 @@ export default function Home() {
             alt="verse logo"
             className="ml-auto mr-auto"
           />
-          put auth here
+          put auth here 
         </a>
+        <Login />
+
+
         <a href="/api/auth/login">Login</a>  
 
         {/* logout */}
