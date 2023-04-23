@@ -2,7 +2,7 @@ import { CardsInfo } from "../interfaces/CardInfo";
 
 const cardsInfo: CardsInfo[] = [
   {
-    image: "",
+    image: "/Verse-Logo.png",
     title: "Card 1",
     buttonLink: "/card1"
 
@@ -36,7 +36,7 @@ const Cards = () => {
         key={card.title}
         className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         >
-          <img src={card.image} alt={card.title} className="w-full h-64 object-cover mb-3" />
+          <img src={card.image} className="w-64 h-64 object-cover mb-3" />
           <h5 className="mb-3 text-2xl font-semibold">{card.title}</h5>
           <button>Sign up</button>
         </a>
