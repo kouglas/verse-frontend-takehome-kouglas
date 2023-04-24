@@ -19,6 +19,7 @@ export default function Profile() {
         </h1> 
         <SideNav />
       </div>
+      <h6>Pick a card that best fits the visualization you want to see</h6>
       <section className="border-2 border-red-500">
         <Cards />
       </section>
