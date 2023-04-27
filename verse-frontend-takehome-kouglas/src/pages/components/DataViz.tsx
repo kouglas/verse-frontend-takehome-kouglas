@@ -3,10 +3,10 @@ import { fetchCarbonIntensityData } from "../api/fetchCarbonIntensityData";
 
 const DataViz = () => {
   
-  console.log(fetchCarbonIntensityData())
+  // console.log(fetchCarbonIntensityData())
 
   return (
-    <div></div>
+    <div>here</div>
 
   )
 

@@ -44,7 +44,7 @@ const Cards = () => {
           />
           <p className="mb-3 text-center mt-8 truncate p-2">{card.title}</p>
           <div className=" text-center justify-center">
-          <Link href="/charts" className="py-2 px-8 rounded-full border-1  no-underline bg-gray-200">Set up</Link>
+          <Link href="/chart-page" className="py-2 px-8 rounded-full border-1  no-underline bg-gray-200">Set up</Link>
           </div>
         </div>
       
