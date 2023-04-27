@@ -1,4 +1,5 @@
 import Link from "next/link";
+import DataViz from "./components/DataViz";
 
 const Charts = () => {
   return ( 
@@ -12,7 +13,11 @@ const Charts = () => {
         </h1> 
       </div>
       <section className="relative">
-        <h1>Put Charts component here </h1>
+        <div>
+          
+        <DataViz />
+        </div>
+  
       </section>
 
 
