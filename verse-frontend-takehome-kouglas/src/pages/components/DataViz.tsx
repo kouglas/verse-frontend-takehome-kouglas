@@ -1,12 +1,20 @@
 import { fetchCarbonIntensityData } from "../api/fetchCarbonIntensityData";
+import { BarChart } from "./charts/barChart";
+import LineChart from "./charts/lineChart";
 
 
 const DataViz = () => {
   
-  // console.log(fetchCarbonIntensityData())
+  // console.log(`from DataViz.tsx ${fetchCarbonIntensityData()}`)
+  // fetchCarbonIntensityData()
 
   return (
-    <div>here</div>
+    <div>here
+      
+      {/* <BarChart /> */}
+      <LineChart />
+    </div>
+
 
   )
 
