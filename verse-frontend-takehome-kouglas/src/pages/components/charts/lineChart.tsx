@@ -35,18 +35,26 @@ const LineChart = () => {
         response.json()
         .then((json) => {
           console.log(json)
+          setChart(json.data)
         })
       }).catch(error => {
         console.log(error)
       })
     }
     fetchData()
-
   }, [proxyURL])
+  
+  console.log("chart", chart)
+
+  
+
+  let data = {
+    labels: ""
+  }
 
   return ( 
     <div>
-
+      <Line data={data}/>
     </div>
   );
 }
